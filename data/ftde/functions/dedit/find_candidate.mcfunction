@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ftde.rot_ent,distance=..10] if score @s ftde.main = current= ftde.main at @s run function ftde:dedit/set_block

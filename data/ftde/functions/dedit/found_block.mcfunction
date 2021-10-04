@@ -1,0 +1,2 @@
+summon marker ~ ~ ~ {Tags:[ftde.rot_ent]}
+execute as @e[type=marker,tag=ftde.rot_ent,limit=1,sort=nearest,distance=..0.1] at @s facing entity @p[tag=ftde.src] eyes facing ^ ^ ^-1 run function ftde:dedit/found_block/entity
